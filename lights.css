@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+button {
+  padding: 5%;
+  background-color: orange;
+  font-size: 1.5rem;
+}
+
+.timer {
+  height: 50px;
+  font-size: 2rem;
+  align-self: center;
+}
+
+.light {
+  width: 200px;
+  height: 200px;
+}
+
+.stop-on {
+  background-image: url('img/stop-on.svg');
+  background-size: contain;
+  align-self: center;
+}
+
+.stop-off {
+  background-image: url('img/stop-off.svg');
+  background-size: contain;
+  align-self: center;
+}
+
+.walk-on {
+  background-image: url('img/walk-on.svg');
+  background-size: contain;
+  align-self: center;
+}
+
+.walk-off {
+  background-image: url('img/walk-off.svg');
+  background-size: contain;
+  align-self: center;
+}
